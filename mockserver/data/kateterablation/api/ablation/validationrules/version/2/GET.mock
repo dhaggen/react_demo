@@ -1,0 +1,74 @@
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+
+{
+  "rules": {
+    "hs": {
+      "required": true
+    },
+    "arrdiag_af": {
+      "required": true
+    },
+    "patientAge": {
+      "digits": true,
+      "required": true
+    },
+    "performedAtDate": {
+      "required": true
+    },
+    "ps_arrhythmia": {
+      "required": true
+    },
+    "multipolCathPvType": {
+      "required": true
+    },
+    "xRayTime": {
+      "digits": true
+    },
+    "otherEnergyTime": {
+      "digits": true
+    },
+    "hsTypes": {
+      "required": true
+    },
+    "procedure_at": {
+      "required": true
+    },
+    "externalId": {
+      "required": true
+    },
+    "ablationProcedures": {
+      "minlength": 1,
+      "maxlength": 8,
+      "required": true
+    },
+    "deviceTypes": {
+      "required": true
+    },
+    "descFibrillationSubstrateMod": {
+      "required": true
+    },
+    "skinToSkinTime": {
+      "digits": true
+    },
+    "device": {
+      "required": true
+    },
+    "arrDiagnoses": {
+      "required": true
+    },
+    "psTypes": {
+      "required": true
+    },
+    "xRayRadiationDose": {
+      "digits": true
+    },
+    "arrdiag_at": {
+      "required": true
+    },
+    "ps": {
+      "required": true
+    }
+  },
+  "messages": {}
+}

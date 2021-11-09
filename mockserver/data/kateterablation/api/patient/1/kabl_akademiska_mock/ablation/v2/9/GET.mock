@@ -1,0 +1,81 @@
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+Access-Control-Allow-Origin: *
+
+{
+  "initialLegalAuthenticator": "mockUser",
+  "latestLegalAuthenticator": "mockUser",
+  "externalId": "3f14cd4e-3578-474c-a514-f377afc9385f",
+  "viewVersion": "2",
+  "performedAtDate": "2019-04-01",
+  "id": 9,
+  "informationProvider": "johha692",
+  "patientId": 1,
+  "ablationCenterKey": "kabl_akademiska",
+  "ablationCenterName": "Akademiska - Testcenter",
+  "patientIdentifier": "191212121212",
+  "patientAge": "106",
+  "ablationProcedures": [
+    "at"
+  ],
+  "procedure_at": "procedure_at_fokal",
+  "indicationOfHisablation2": [
+    "NONE"
+  ],
+  "countyOfResidence": "",
+  "antiArrhythmiaHistory2": "MISSING",
+  "patientHeight": "",
+  "patientWeight": "",
+  "arrDiagnoses": [
+    "cti"
+  ],
+  "arrdiag_at": "NONE",
+  "arrdiag_af": "NONE",
+  "arrhythmiaSymptomatology2": "MISSING",
+  "otherDisease": "MISSING",
+  "hypertoni": "MISSING",
+  "diabetes": "MISSING",
+  "previousStroke": "MISSING",
+  "peripheralArteryDisease": "MISSING",
+  "ps": "NO",
+  "psTypes": [],
+  "ps_arrhythmia": [],
+  "hs": "YES",
+  "hsTypes": [
+    "hsVoc"
+  ],
+  "implantedHeartDevice": "NONE",
+  "device": "NO",
+  "deviceTypes": [],
+  "lvFunction2": "MISSING",
+  "skinToSkinTime": "",
+  "xRayRadiationDose": "",
+  "xRayTime": "",
+  "ablationInterruptedCompl": "MISSING",
+  "wasSuccess2": "MISSING",
+  "compFree2": "MISSING",
+  "transAccess2": "MISSING",
+  "retro2": "MISSING",
+  "epicard2": "MISSING",
+  "ice": "MISSING",
+  "descFibrillation": [],
+  "descFibrillationSubstrateMod": [],
+  "descVTTypes": [],
+  "kryo2": "YES",
+  "rf2": "NO",
+  "remoteCatheterManipulation2": "MISSING",
+  "electroAnatom2": "MISSING",
+  "multipolCathPv": "MISSING",
+  "multipolCathPvType": [],
+  "extraVariables": {},
+  "rfEnergy": "",
+  "rfIrrigatedTip": "MISSING",
+  "rfForceSensingCatheter": "MISSING",
+  "rfOther": "MISSING",
+  "rfEnergyTime": "",
+  "kryoFocal": "YES",
+  "kryoBalloon": "YES",
+  "kryoEnergyTime": "5",
+  "otherEnergy": "MISSING",
+  "otherEnergyTime": ""
+}

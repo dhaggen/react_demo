@@ -1,0 +1,85 @@
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+Access-Control-Allow-Origin: *
+
+{
+  "password": "test",
+  "username": "test",
+  "authorities": [
+    {
+      "authority": "ROLE_SYSADMIN"
+    },
+    {
+      "authority": "ROLE_USER"
+    },
+    {
+      "authority": "ROLE_kabl_centre_abl"
+    }
+  ],
+  "accountNonExpired": true,
+  "accountNonLocked": true,
+  "credentialsNonExpired": true,
+  "enabled": true,
+  "personalInfo": {
+    "firstName": "Mock",
+    "lastName": "Mockinsson",
+    "email": "mockuser@test.se",
+    "address": "",
+    "phone1": "",
+    "phone2": "",
+    "personalIdNumber": null
+  },
+  "accessControlUsername": "mockedUser",
+  "currentOrganizationUnit": {
+    "legalEntityReference": {
+      "reference": "NULL"
+    },
+    "reference": {
+      "reference": "kabl_akademiska_mock"
+    },
+    "name": "Akademiska - Mockcenter",
+    "simpleName": null,
+    "active": true,
+    "parentReference": {
+      "reference": "kabl_vardgivare_mock"
+    },
+    "parentName": "Mock landsting",
+    "organizationLevel": {
+      "key": "centre",
+      "name": "Center",
+      "depth": 2,
+      "parentKey": "kablHealthcareproviderOuLevel",
+      "legalEntityLevel": false
+    },
+    "countryCode": null,
+    "geographicHierarchyCode": null,
+    "externalIdentifiers": []
+  },
+  "availableOrganizationUnits": [
+    {
+      "legalEntityReference": {
+        "reference": "NULL"
+      },
+      "reference": {
+        "reference": "kabl_akademiska_mock"
+      },
+      "name": "Akademiska - Mockcenter",
+      "simpleName": null,
+      "active": true,
+      "parentReference": {
+        "reference": "kabl_vardgivare_mock"
+      },
+      "parentName": "Mock landsting",
+      "organizationLevel": {
+        "key": "centre",
+        "name": "Center",
+        "depth": 2,
+        "parentKey": "kablHealthcareproviderOuLevel",
+        "legalEntityLevel": false
+      },
+      "countryCode": null,
+      "geographicHierarchyCode": null,
+      "externalIdentifiers": []
+    }
+  ]
+}

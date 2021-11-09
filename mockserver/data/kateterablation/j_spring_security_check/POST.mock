@@ -1,0 +1,7 @@
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+Response-Delay: 1500
+Set-Cookie: JSESSIONID=TESTVALUETESTVALUE; Path=/kateterablation; HttpOnly
+Access-Control-Allow-Origin: *
+
+{}

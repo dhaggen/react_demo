@@ -1,0 +1,33 @@
+.rapportLists {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+.rapportLists .rapportNote {
+    flex: 1;
+    min-width: 45%;
+    background-color: rgba(0, 0, 0, 0.07);
+}
+
+.rapportLists .rapportNote:nth-child(odd) {
+    margin: 0 20px 15px 0;
+}
+
+.rapportLists .rapportNote:nth-child(even) {
+    margin: 0 0 15px 0;
+}
+
+.noteTitle {
+    margin: 40px 20px 30px 30px;
+    color: #488400;
+}
+
+.noteContent {
+    margin: 20px 30px;
+}
+
+.noteFooter {
+    margin: 20px 40px 30px 30px;
+}

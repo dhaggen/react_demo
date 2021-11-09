@@ -1,0 +1,45 @@
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+
+[
+  {
+    "id": "ap_wpw",
+    "label": "AblationProcedure.ap_wpw"
+  },
+  {
+    "id": "avnrt",
+    "label": "AblationProcedure.avnrt"
+  },
+  {
+    "id": "cti",
+    "label": "AblationProcedure.cti"
+  },
+  {
+    "id": "at",
+    "label": "AblationProcedure.at"
+  },
+  {
+    "id": "lungvensiso",
+    "label": "AblationProcedure.lungvensiso"
+  },
+  {
+    "id": "hisabl",
+    "label": "AblationProcedure.hisabl"
+  },
+  {
+    "id": "ves",
+    "label": "AblationProcedure.ves"
+  },
+  {
+    "id": "vt",
+    "label": "AblationProcedure.vt"
+  },
+  {
+    "id": "vf",
+    "label": "AblationProcedure.vf"
+  },
+  {
+    "id": "elfys",
+    "label": "AblationProcedure.elfys"
+  }
+]

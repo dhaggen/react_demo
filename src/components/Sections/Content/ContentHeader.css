@@ -1,0 +1,26 @@
+.contentHeaderNote {
+    background-color: #ecfad8;
+    display: flex;
+    flex-direction: column;
+    border-radius: 6px;
+    height: calc(100% - 42px);
+    margin: 21px 55px 21px 30px;
+}
+
+.contentHeaderNote > * {
+    margin: 10px 20px;
+}
+
+.contentHeaderNote .downloadLink {
+    color: #397c93;
+    cursor: pointer;
+    line-height: 24px;
+    font-size: 14px;
+    letter-spacing: 0.2px;
+    display: flex;
+}
+
+.downloadLinkText {
+    margin-bottom: 6px;
+    margin-left: 10px;
+}

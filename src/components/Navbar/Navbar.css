@@ -1,0 +1,28 @@
+.navbar {
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.navbar ul {
+    margin: 0;
+    display: flex;
+    flex-flow: row nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+
+.navbar ul li {
+    margin-right: 30px;
+    margin-top: 23px;
+    margin-bottom: 17px;
+}
+
+.navbar .activeUrl {
+    color: #C6E59B;
+    border-color: #C6E59B;
+}

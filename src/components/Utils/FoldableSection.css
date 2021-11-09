@@ -1,0 +1,52 @@
+.foldableHeader .arrow {
+    border: solid black;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+}
+
+.foldableHeader {
+    display: flex;
+    flex-direction: row;
+}
+
+.foldableHeader h3 {
+    flex: 1 1;
+}
+
+.foldableHeader .arrow {
+    border-color: #61a60f;
+    width: 1px;
+    height: 1px;
+    margin-top: 16px;
+    margin-right: 6px;
+    margin-left: 12px;
+}
+
+
+.foldableHeader .down {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+}
+
+.foldableHeader .left {
+    transform: rotate(135deg);
+    -webkit-transform: rotate(135deg);
+}
+
+.foldableSection hr {
+    border: 0;
+    height: 2px;
+    background-color: rgba(0, 0, 0, 0.15);
+    margin: 10px 0;
+}
+
+.foldingText, .arrow {
+    cursor: pointer;
+}
+
+.foldableHeader .foldingText {
+    margin-top: 12px;
+    display: flex;
+    color: #61a60f;
+}

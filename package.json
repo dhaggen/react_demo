@@ -1,0 +1,55 @@
+{
+  "name": "kateterablation",
+  "version": "0.2.0",
+  "private": true,
+  "proxy": "http://localhost:3001/",
+  "dependencies": {
+    "@babel/polyfill": "^7.4.3",
+    "@emotion/core": "^10.0.10",
+    "@emotion/styled": "^10.0.10",
+    "@material-ui/core": "^3.9.3",
+    "@material-ui/icons": "^3.0.2",
+    "@types/isomorphic-fetch": "0.0.35",
+    "@types/jest": "^24.0.11",
+    "@types/node": "^11.13.0",
+    "@types/react": "^16.8.10",
+    "@types/react-dom": "^16.8.3",
+    "@types/react-router": "^4.4.5",
+    "@types/react-router-dom": "^4.3.1",
+    "@types/yup": "^0.26.12",
+    "es6-promise": "^4.2.6",
+    "es6-promise-promise": "^1.0.0",
+    "formik": "^1.5.2",
+    "isomorphic-fetch": "^2.2.1",
+    "material-ui-next-pickers": "0.0.20",
+    "material-ui-pickers": "^2.2.4",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-router": "^5.0.0",
+    "react-router-dom": "^5.0.0",
+    "react-scripts": "^2.1.8",
+    "typescript": "^3.4.1",
+    "url-search-params-polyfill": "^5.1.0",
+    "yup": "^0.27.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "mockserver": "node mockserver.js",
+    "dev": "run-p mockserver start"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie < 11"
+  ],
+  "devDependencies": {
+    "babel-plugin-macros": "^2.5.1",
+    "mockserver": "^3.0.0"
+  }
+}

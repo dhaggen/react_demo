@@ -1,0 +1,76 @@
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+Access-Control-Allow-Origin: *
+
+[
+  {
+    "eventId": 14,
+    "eventType": "ABLATION_MODIFIED",
+    "eventName": "Ablation ändrad",
+    "eventDate": "2019-04-05",
+    "controlDate": "2019-04-01",
+    "triggeredBy": "johha692",
+    "centerId": "kabl_akademiska",
+    "relatedEntityId": 9
+  },
+  {
+    "eventId": 13,
+    "eventType": "PROM_REGISTERED",
+    "eventName": "Registrerat PROM",
+    "eventDate": "2019-04-05",
+    "controlDate": "2019-04-05",
+    "triggeredBy": "johha692",
+    "centerId": "kabl_akademiska",
+    "relatedEntityId": 12
+  },
+  {
+    "eventId": 11,
+    "eventType": "ABLATION_MODIFIED",
+    "eventName": "Ablation ändrad",
+    "eventDate": "2019-04-05",
+    "controlDate": "2019-04-05",
+    "triggeredBy": "johha692",
+    "centerId": "kabl_akademiska",
+    "relatedEntityId": 9
+  },
+  {
+    "eventId": 10,
+    "eventType": "ABLATION_REGISTERED",
+    "eventName": "Ablation inlagd",
+    "eventDate": "2019-04-05",
+    "controlDate": "2019-04-05",
+    "triggeredBy": "johha692",
+    "centerId": "kabl_akademiska",
+    "relatedEntityId": 9
+  },
+  {
+    "eventId": 7,
+    "eventType": "ABLATION_REGISTERED",
+    "eventName": "Ablation inlagd",
+    "eventDate": "2018-11-14",
+    "controlDate": "2018-11-14",
+    "triggeredBy": "johha692",
+    "centerId": "kabl_testcenter",
+    "relatedEntityId": 6
+  },
+  {
+    "eventId": 5,
+    "eventType": "ABLATION_REGISTERED",
+    "eventName": "Ablation inlagd",
+    "eventDate": "2018-11-01",
+    "controlDate": "2018-11-01",
+    "triggeredBy": "johha692",
+    "centerId": "kabl_testcenter",
+    "relatedEntityId": 4
+  },
+  {
+    "eventId": 2,
+    "eventType": "REGISTER_PATIENT",
+    "eventName": "Patient inlagd",
+    "eventDate": "2018-11-01",
+    "controlDate": "2018-11-01",
+    "triggeredBy": "johha692",
+    "centerId": "",
+    "relatedEntityId": 1
+  }
+]

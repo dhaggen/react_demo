@@ -1,0 +1,22 @@
+.row-form {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.row-form label {
+    padding: 5px 10px;
+}
+
+.row-form .age-selector {
+    margin: 5px 10px;
+}
+
+.row-form .genderPicker {
+    flex-direction: row;
+}
+
+.loading {
+    margin-left: 5px;
+}

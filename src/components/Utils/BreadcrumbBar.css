@@ -1,0 +1,23 @@
+.breadcrumbBar {
+    margin: 20px 55px;
+}
+
+.breadcrumbBar .breadLink {
+    border: 0;
+    background-color: transparent;
+}
+
+.breadcrumbBar .backArrow {
+    transform: rotate(135deg);
+    -webkit-transform: rotate(135deg);
+    border: solid #488400;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+    margin-right: 5px;
+}
+
+.breadcrumbBar a {
+    color: #488400;
+    text-decoration: none;
+}

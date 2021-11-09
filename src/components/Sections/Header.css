@@ -1,0 +1,29 @@
+.header {
+    background-color: #488400;
+    color: #ffffff;
+    display: flex;
+    align-items: flex-start;
+    justify-content: left;
+    flex-direction: row;
+    height: 64px;
+}
+
+.generalInformation {
+    display: flex;
+    align-items: flex-start;
+    justify-content: left;
+    flex-direction: row;
+    margin-left: 55px;
+}
+
+.header .registerTitle {
+    margin: 17px 0 17px 0;
+}
+
+.header .organizationUnit {
+    margin: 23px 0 17px 15px;
+}
+
+.pusher {
+    flex-grow: 1;
+}
